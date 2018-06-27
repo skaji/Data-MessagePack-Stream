@@ -14,6 +14,10 @@ use builder::MyBuilder;
 use File::Basename;
 use File::Spec;
 
+use Devel::CheckBin;
+
+check_bin('cmake');
+
 my %args = (
     license              => 'perl_5',
     dynamic_config       => 0,

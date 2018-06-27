@@ -28,6 +28,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
+            "Devel::CheckBin" : "0",
             "Devel::PPPort" : "3.42",
             "Module::Build" : "0.4005",
             "Module::Build::XSUtil" : "0"
@@ -70,6 +71,7 @@
    "x_authority" : "cpan:TYPESTER",
    "x_contributors" : [
       "Olivier Mengué <dolmen@cpan.org>",
+      "Shoichi Kaji <skaji@cpan.org>",
       "Syohei YOSHIDA <syohex@gmail.com>"
    ],
    "x_serialization_backend" : "JSON::PP version 2.97001",

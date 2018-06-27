@@ -2,6 +2,7 @@ name = "Data-MessagePack-Stream"
 authority = "cpan:TYPESTER"
 module_maker = "ModuleBuild"
 badges = ['travis']
+requires_external_bin = ['cmake']
 
 [build]
 build_class = "builder::MyBuilder"
