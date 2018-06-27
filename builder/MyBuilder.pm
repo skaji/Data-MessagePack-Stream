@@ -34,7 +34,7 @@ sub _build_msgpack {
 
     $self->_set_mtime;
 
-    my @opt = ('--disable-shared');
+    my @opt = ('CFLAGS=-Wno-implicit-fallthrough', '--disable-shared');
     push @opt, '--with-pic' if Config->myconfig =~ /(amd64|x86_64)/i;
 
     chdir "msgpack-1.4.2";
